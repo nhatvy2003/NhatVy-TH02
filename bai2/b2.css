@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    width: 60%;
+    margin: 0 auto;
+
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+}
+
+h1 {
+    text-align: center;
+    color: blueviolet;
+}
+
+p {
+    text-align: center;
+    color: gray;
+}
+
+p span {
+    font-style: italic;
+}
+
+form {
+    width: 100%;
+    background-color: gray;
+}
+
+form .form {
+    width: 80%;
+    margin: 0 auto;
+    height: 60vh;
+}
+
+form .form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-around;
+}
+
+form .form div {
+    width: 45%;
+}
+
+form .form input, form .form select {
+    width: 100%;
+    padding: 10px 10px;
+}
+
+form .form div.textarea {
+    width: 100%;
+}
+
+form .form div.textarea textarea {
+    width: 100%;
+    resize: none;
+}
+
+form .form div:last-child button{
+    background-color: aqua;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}

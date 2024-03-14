@@ -1,0 +1,54 @@
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.container h1 {
+    font-size: 30px;
+    color: blue;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.container .form {
+    display: flex;
+}
+
+.container .form .left {
+    width: 30%;
+}
+
+.container .form .left h2:first-child {
+    font-weight: 300;
+}
+
+.container .form .left p {
+    color: gray;
+}
+
+.container .form .right {
+    width: 70%;
+}
+
+.container .form .right p:first-child {
+    font-size: 20px;
+    color: blueviolet;
+}
+
+.container .form .right form div{
+    margin: 10px 0;
+}
+
+input, textarea {
+    padding-left: 10px;
+    line-height: 2;
+    width: 100%;
+}
+
+button {
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: cyan;
+    padding: 10px 20px;
+}
